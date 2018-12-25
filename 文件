@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="api/angular-1.5.8/angular.min.js"></script>
+		<script src="api/angular-1.5.8/angular-animate.min.js"></script>
+
+	</head>
+	<body>
+		<div ng-controller="HomeController">
+		 <ul>
+		 <li class="fade-in" ng-repeat="r in roommates">
+		 {{ r }}
+		 </li></ul>
+		</div>
+	</body>
+	<script src="js/app9.js"></script>
+</html>
